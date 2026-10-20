@@ -1,0 +1,14 @@
+tsconfig.json
+  h_a57efa94f24ca5 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "2eae7d125304c828eaa9650506f29e06f2160e27",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}
