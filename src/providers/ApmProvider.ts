@@ -13,6 +13,7 @@
 // </script>
 
 import type { ClientBrowser } from "@spark-fe/probe-web";
+import { Level } from "../enums.js";
 
 export class ApmProvider {
   private instance: ClientBrowser | null = null;
@@ -29,33 +30,11 @@ export class ApmProvider {
     }
   }
 
-  public info(message: string) {
+  public report(level: Level, code: string, message: string) {
     try {
       this.instance?.sendCustomLogEvent({
-        level: "info",
-        content: message,
-      });
-    } catch (error) {
-      console.error("Error sending custom log event", error);
-    }
-  }
-
-  public warn(message: string) {
-    try {
-      this.instance?.sendCustomLogEvent({
-        level: "warn",
-        content: message,
-      });
-    } catch (error) {
-      console.error("Error sending custom log event", error);
-    }
-  }
-
-  public error(message: string) {
-    try {
-      this.instance?.sendCustomLogEvent({
-        level: "error",
-        content: message,
+        level,
+        content: `code: ${code}, message: ${message}`,
       });
     } catch (error) {
       console.error("Error sending custom log event", error);
