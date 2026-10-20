@@ -1,0 +1,16 @@
+src/env.d.ts
+  h_a57efa94f24ca5 1,4-6
+src/providers/ApmProvider.ts
+  h_a57efa94f24ca5 1,4-14,16,18-25,27,29-36,38,40-47,49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3f4f885e2bf7310b165715467af8baf8b766caf8",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}
