@@ -1,0 +1,14 @@
+src/providers/ApmProvider.ts
+  h_a57efa94f24ca5 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "05e6d5c61d37111aeb3e7fe169e618f8ffa1017c",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}
