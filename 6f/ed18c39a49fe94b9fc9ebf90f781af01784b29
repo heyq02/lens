@@ -1,0 +1,18 @@
+package.json
+  h_a57efa94f24ca5 45-47
+pnpm-lock.yaml
+  h_a57efa94f24ca5 177-180,205-208,399-401,751-754,775-780,801-803,825-828,913-915,1004-1006,1018-1020,1063-1069,1166-1170,1271-1278,1570-1571,1594-1599,1614-1615,1629-1633,1689-1690,1770-1771,1782-1785,1843-1848
+pnpm-workspace.yaml
+  h_a57efa94f24ca5 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6fed18c39a49fe94b9fc9ebf90f781af01784b29",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}
