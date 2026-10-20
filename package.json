@@ -42,5 +42,8 @@
       "version": "12.14.0",
       "onFail": "download"
     }
+  },
+  "dependencies": {
+    "@spark-fe/probe-web": "1.3.4"
   }
 }
