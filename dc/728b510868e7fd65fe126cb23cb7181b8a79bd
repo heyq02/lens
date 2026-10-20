@@ -1,0 +1,18 @@
+src/enums.ts
+  h_a57efa94f24ca5 2-4
+src/providers/ApmProvider.ts
+  h_a57efa94f24ca5 16
+src/providers/SgmProvider.ts
+  h_a57efa94f24ca5 9-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "dc728b510868e7fd65fe126cb23cb7181b8a79bd",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}
