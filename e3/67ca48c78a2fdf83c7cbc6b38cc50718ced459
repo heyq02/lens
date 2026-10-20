@@ -1,0 +1,14 @@
+src/env.d.ts
+  h_a57efa94f24ca5 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e367ca48c78a2fdf83c7cbc6b38cc50718ced459",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}
