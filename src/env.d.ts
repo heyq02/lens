@@ -1,7 +1,7 @@
-import { ClientBrowser } from "@spark-fe/probe-web"
+import { ClientBrowser } from "@spark-fe/probe-web";
 
 declare global {
-    interface Window {
-        dra: ClientBrowser
-    }
+  interface Window {
+    dra: ClientBrowser;
+  }
 }
