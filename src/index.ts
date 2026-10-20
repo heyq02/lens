@@ -1,9 +1,8 @@
+import { Level } from "./enums.js";
 import { ApmProvider } from "./providers/ApmProvider.js";
 import { SgmProvider } from "./providers/SgmProvider.js";
 
-export { Level } from "./enums.js";
-
-export class Lens {
+class Lens {
   private provider: ApmProvider | SgmProvider | null = null;
 
   constructor(type: "apm" | "sgm") {
@@ -16,5 +15,12 @@ export class Lens {
     }
   }
 
-  public report(level: Level)
+  public report(level: Level, code: string, message: string) {
+    if (this.provider) {
+      this.provider.report(level, code, message);
+    }
+  }
 }
+
+export default Lens;
+export { Level };
