@@ -13,6 +13,7 @@
 // </script>
 
 import type { ClientBrowser } from "@spark-fe/probe-web";
+
 import { Level } from "../enums.js";
 
 export class ApmProvider {

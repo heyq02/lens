@@ -6,4 +6,15 @@
 // How to install SGM:
 // <script crossorigin src="https://sgm-static.jd.com/sgm-web-x.x.x.js" name="SGMH5" sid="每个项目唯一值" pid="应用信息ID"></script>
 
-export class SgmProvider {}
+import { Level } from "../enums.js";
+
+export class SgmProvider {
+  private instance: null = null;
+
+  public report(level: Level, code: string, message: string) {
+    try {
+    } catch (error) {
+      console.error("Error sending custom log event", error);
+    }
+  }
+}
