@@ -1,6 +1,8 @@
 import { ApmProvider } from "./providers/ApmProvider.js";
 import { SgmProvider } from "./providers/SgmProvider.js";
 
+export { Level } from "./enums.js";
+
 export class Lens {
   private provider: ApmProvider | SgmProvider | null = null;
 
@@ -13,4 +15,6 @@ export class Lens {
       console.error("Invalid provider type");
     }
   }
+
+  public report(level: Level)
 }
