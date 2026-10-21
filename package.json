@@ -21,7 +21,8 @@
     "./package.json": "./package.json"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "http://registry.m.jd.com/"
   },
   "scripts": {
     "build": "vp pack",
